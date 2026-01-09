@@ -20,6 +20,7 @@
 }
 .btn:hover{
     background: black;
+    color: #30B868;
 }
 /* Main CSS */
 .nav-container{
@@ -30,7 +31,9 @@
     margin: 0 auto;
     padding: 10px 5px;
 }
-
+.nav-container .logo{
+    cursor: pointer;
+}
 .menu{
     display: flex;
     gap: 35px;
@@ -44,6 +47,7 @@
     color: #000000;
 }
 
+/* Banner part */
 
 #banner .banner-img{
     background-image: url(images/hero-bg.png); 
@@ -66,13 +70,13 @@
 .banner-content h1{
     font-size: 50px;
     font-weight: bold;
-    padding-bottom: 16px;
 }
 
 .banner-content p{
     padding-bottom: 20px;
     font-size: 18px;
     line-height: 35px;
+    padding: 18px 150px;
 }
 .button-container {
   display: flex;       
@@ -147,7 +151,7 @@
 
 .brain-container{
     max-width: 1360px;
-    padding-top: 70px;
+    margin-top: 70px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -192,4 +196,67 @@
     color: #001931;
     font-weight: 400;
     
+}
+
+/* Access Section */
+
+.access-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    margin-top: 75px;
+    background-color: #F7F6F2;
+    padding: 100px 300px;
+}
+.access-text{
+    text-align: center;
+}
+.access-text h1{
+    font-size: 40px;
+    color: #001931;
+    
+}
+
+.access-text p{
+    font-size: 16px;
+    color: #627382;
+    padding: 20px 80px;
+    line-height: 25px;
+}
+.footer-part{
+    background-color: #001931;
+}
+
+.footer-content{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icon h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.link-icon{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.link-icon i{
+    font-size: 25px;
+}
+.link-icon a{
+    color: white;
+}
+.divider{
+    border-top: 1px solid #d9d9d9;
+}
+.last-text p{
+    font-size: 16px;
+    color: #d5d5d5;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
